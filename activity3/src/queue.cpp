@@ -5,9 +5,11 @@ struct node
     int data;
     struct node *next;
 };
-struct node *front = NULL;
-struct node *rear = NULL;
+
+struct node *head = NULL;
+struct node *tail = NULL;
 struct node *temp;
+
 void Insert(int val)
 {
     if (rear == NULL)
@@ -20,9 +22,11 @@ void Insert(int val)
     else
     {
         temp = new node;
-        rear->next = temp;
         temp->data = val;
+
+        rear->next = temp;
         temp->next = NULL;
+
         rear = temp;
     }
 }
