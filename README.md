@@ -53,6 +53,7 @@
 
 ## Part 3: Introduction to Linked list
 
+- [Big O Complexity](https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1176/handouts/midterm/5-BigO.pdf)
 - Introduction to linked list
   - Queues
   - Stack
