@@ -1,6 +1,6 @@
   Discuss the various operations that can be performed on a linked list. Refer to the following link: https://www.softwaretestinghelp.com/linked-list/
 
-Insertion after a reference node. O(N)
+Insertion after a reference node in O(N).
 
 Append and prepend in O(1). Less expensive than on arrays.
 
